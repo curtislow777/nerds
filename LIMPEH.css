@@ -1,4 +1,9 @@
-.containah{
-  padding: 5%;
-  color: black;
+.container{
+  padding: 2%;
+}
+
+
+
+.card{
+  max-width: 300px;
 }
