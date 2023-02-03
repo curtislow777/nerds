@@ -500,7 +500,6 @@ body {
 
 
 
-
 /*-----------------------------------*\
  * #HERO
 \*-----------------------------------*/
@@ -536,18 +535,16 @@ body {
  * #COLLECTION
 \*-----------------------------------*/
 
-.collection-card {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding-block: 45px 25px;
+.container2{
+  padding: 10%;
 }
 
+.card2{
+  max-width: 300px;
+}
+.col-8{
+  font-size: 20px;
+}
 
 
 
@@ -1337,3 +1334,5 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
 }
+
+
