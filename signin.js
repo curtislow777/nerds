@@ -24,13 +24,13 @@ $("#login-submit").on("click", function (e) {
     "processData": false,
   }
 
-  var jsondata = {
-    “email”: email,
-    “password”: password
-    };
+  //var jsondata = {
+  //  “email”: email,
+  //  “password”: password
+  //  };
 
-    “data”: JSON.stringify(jsondata)
-    if response!=null:
+  //  “data”: JSON.stringify(jsondata)
+  //  if response!=null:
     
 
   $.ajax(settings).done(function(response) {
