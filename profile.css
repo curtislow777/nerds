@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/wpd2upl.css");
+
 body {
     background-color: #FAEDCD;
     font-size: 1.6rem;
@@ -54,14 +56,17 @@ body {
 
 .bar-container{
   width: 100%;
-  height: 100vh;
-  background-color: beige;
+  height: 400px ;
+  background-color: #D4D4CF;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
-
+.mod-1{
+  background-color: #F07167;
+}
 
 
 
@@ -87,24 +92,61 @@ body {
   .progress-bar div{
     height: 20px;
     border-radius: 10px;
-    width: 50%;
-    background-color: orange;
+    width: 0%;
   }
 
-  .skill-name{
+.mod-1{
+  background-color: #F07167;
+  animation: mod-1 1s linear forwards;
+}
 
-  }
+.mod-2{
+  background-color: #0081A7;
+  animation: mod-2 1s linear forwards;
+}
 
-  .skill-bar{
-    height: 14px;
-    background-color: whitesmoke;
-    border-radius: 4px;
-  }
+.mod-3{
+  background-color: #F5A624;
+  animation: mod-3 1s linear forwards;
+}
 
-  .skill-per{
-    height: 14px;
-    background-color: aqua;
+.mod-4{
+  background-color: #2FCCAD;
+  animation: mod-4 1s linear forwards;
+
+}
+
+@keyframes mod-1{
+  100%{
+    width: 86%;
   }
+}
+
+@keyframes mod-2{
+  100%{
+    width: 74%;
+  }
+}
+
+@keyframes mod-3{
+  100%{
+    width: 35%;
+  }
+}
+
+@keyframes mod-4{
+  100%{
+    width: 40%;
+  }
+}
+
+
+
+
+
+
+
+
 
   .comment-box,
   .post-comment .list{
@@ -114,7 +156,7 @@ body {
   }
 
 .comment-section{
-  width: 650px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }
@@ -167,6 +209,8 @@ body {
 }
 
 .comment-box textarea{
+  height: 50px;
+  width: 1 ;
   background-color: white;
   margin: 10px 0;
   padding: 10px;
@@ -176,9 +220,10 @@ body {
 
 .comment-box textarea:focus-visible
 
+
+
 .comment-box .comment-submit{
-  float:right;
-  padding: 6px 10px;
+  padding: 10px 10px;
   border: none;
   background-color: greenyellow;
   color: white;
@@ -187,6 +232,7 @@ body {
 }
 
 .comment-box .comment-submit:hover{
-  background-color: greenyellow;
+  background-color: blue;
   
 }
+
