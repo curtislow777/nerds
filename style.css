@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/wpd2upl.css");
+
 :root {
 
   /**
@@ -61,6 +63,20 @@
 
 li { list-style: none; }
 
+.card2{
+  width: 400px;
+}
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: auto; /* only if you want fixed height */
+  }
+
+.img-top{
+  width: 350px;
+}
+
 a { text-decoration: none; }
 
 a,
@@ -97,6 +113,9 @@ body {
   background-color: #FAEDCD;
   font-size: 1.6rem;
   padding-block-start: 90px;
+  font-family: "pinot-grigio-modern", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 ::-webkit-scrollbar { width: 10px; }
