@@ -68,7 +68,9 @@ body {
   background-color: #F07167;
 }
 
-
+#level{
+  text-align: right;
+}
 
   .skills{
     width: 100%;
@@ -181,20 +183,24 @@ body {
 
 .comment-section .name{
   text-transform: uppercase;
-  font-weight: 500;
 }
 
 .post-comment .list .day{
   font-size: 12px;
 }
 
-.post-comment .comment-post{
+.post-comment{
   padding: 0 0 15px 58px
 }
 
-.comment-box{
-  padding: 10px
+
+
+
+#comment-box{
+  border:none;
+  border-radius: 5px;
 }
+
 
 .comment-box .user{
   display: flex;
