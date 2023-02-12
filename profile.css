@@ -30,9 +30,6 @@ body {
     border-top-right-radius: 0;
   }
 
-.mod-card{
-  background-color: aqua;
-}
 
   @media only screen and (max-width: 768px) {
     a {
@@ -55,18 +52,16 @@ body {
   }
 
 .bar-container{
-  width: 100%;
+  width: 105%;
   height: 400px ;
   background-color: #D4D4CF;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 
-.mod-1{
-  background-color: #F07167;
-}
+
 
 #level{
   text-align: right;
@@ -85,14 +80,14 @@ body {
   }
 
   .progress-bar{
-    background-color: black;
-    width: 600px;
-    height: 20px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 25px;
     border-radius: 10px;
   }
 
   .progress-bar div{
-    height: 20px;
+    height: 25px;
     border-radius: 10px;
     width: 0%;
   }
@@ -120,7 +115,7 @@ body {
 
 @keyframes mod-1{
   100%{
-    width: 86%;
+    width: 25%;
   }
 }
 
@@ -138,8 +133,13 @@ body {
 
 @keyframes mod-4{
   100%{
-    width: 40%;
+    width: 50%;
   }
+}
+
+
+.list{
+  margin-top: 50px;
 }
 
 
@@ -148,6 +148,7 @@ body {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 2px 2px black;
+    margin-top: 20px;
   }
 
 .comment-section{
