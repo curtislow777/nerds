@@ -44,6 +44,11 @@ $("#login-submit").on("click", function (e) {
       // Login successful, redirect or perform other desired action
       console.log("Login successful");
     } else {
+
+      var error = document.getElementById("error");
+      error.classList.remove("hidden");
+
+
       // Login failed, display error message or perform other desired action
       console.error("Login failed, email or password incorrect");
     }
