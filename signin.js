@@ -9,6 +9,8 @@ $("#login-submit").on("click", function (e) {
   //you are to do your own data validation
   let email = $("#login-email").val();
   let password = $("#login-password").val();
+  console.log("Email", email);
+  console.log("Password", password);
   
   //[STEP 3]: Create our AJAX settings to retrieve the account from RESTDB based on the entered email
   var settings = {
@@ -23,35 +25,16 @@ $("#login-submit").on("click", function (e) {
     },
     "processData": false,
   }
-
-  //var jsondata = {
-  //  “email”: email,
-  //  “password”: password
-  //  };
-
-  //  “data”: JSON.stringify(jsondata)
-  //  if response!=null:
-    
-
   $.ajax(settings).done(function(response) {
-    console.log(response);
-
-    console.log(email)
-    console.log(password)
+    console.log("Response of matched data is", response);
     
     //[STEP 4]: Check if the retrieved account exists and the password matches
     if (response.length > 0 && response[0].password === password) {
       // Login successful, redirect or perform other desired action
       console.log("Login successful");
     } else {
-
-      var error = document.getElementById("error");
-      error.classList.remove("hidden");
-
-
       // Login failed, display error message or perform other desired action
       console.error("Login failed, email or password incorrect");
     }
   });
   })
-
