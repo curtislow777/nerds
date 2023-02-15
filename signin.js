@@ -34,6 +34,10 @@ $("#login-submit").on("click", function (e) {
     if (accountFound) {
       console.log("Login successful");
     } else {
+
+      var error = document.getElementById("error");
+      error.classList.remove("hidden");
+
       console.error("Login failed, email or password incorrect");
     }
   });

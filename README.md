@@ -72,7 +72,7 @@ wireframe/docs
 - Feature 9 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (No)
 
 
-- Feature 10 - Discussion page
+- Feature 10 - Discussion page - Users can view post
 
 
 
