@@ -15,6 +15,19 @@
   </head>
   <body>
     <style>
+      #error {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 * {
@@ -430,6 +443,9 @@ form.sign-in-form {
               <input type="password" placeholder="Password" id="login-password"/>
             </div>
             <input type="submit" value="Login" class="btn solid" id="login-submit" />
+            <div id="error" class="hidden">
+              Wrong email or password.
+            </div>
             <p class="social-text">Or Sign in with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
