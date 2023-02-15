@@ -110,7 +110,7 @@ html {
 }
 
 body {
-  background-color: #FAEDCD;
+  background-color: white;
   font-size: 1.6rem;
   padding-block-start: 90px;
   font-family: "pinot-grigio-modern", sans-serif;
@@ -134,7 +134,7 @@ body {
  * #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 15px; }
+.container { padding-inline: 15px;}
 
 .section { padding-block: var(--section-padding); }
 
@@ -356,7 +356,7 @@ body {
 \*-----------------------------------*/
 
 .header {
-  background: var(--white);
+  background: var(--salmon);
   position: fixed;
   top: 0;
   left: 0;
