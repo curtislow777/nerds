@@ -40,12 +40,10 @@ As a user, I want the website to be engaging and interactive
 
 
 
+wireframe/docs
 
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ### Features
-
 ## Existing Features
 - Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
 
@@ -71,7 +69,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - Feature 8 - Profile page
 
 
-- Feature 9 - Leaderboard page
+- Feature 9 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (No)
 
 
 - Feature 10 - Discussion page
