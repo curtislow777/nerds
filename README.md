@@ -2,13 +2,24 @@
 
 # NERDGE
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+- Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points.
 
-Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points
+- Our website mainly focuses on engaging students with fun learning as we as students feel that engage learning can have students to be more curious and also the interest to learn more.
 
+- We displayed similar learning points from how its taught to us in school itself, but in our website not only does it display the learning points but also animations and also cartoon and colourful display.
 
+- This is a company that we came up as we think that student mostly are stress so to relieve stress we decided to make a website thats less stressfull to look at.
 
-# Design Process
+- We got inspired by our own learning experience and also learning platforms like Kahoot and Politemall.
+I also feel like bright colours like salmon, has a calming and chill effect to viewers which is why its set as one of the theme colours. 
+
+- Why we don't have a about page? We find it weird to have a about page for a learning platform and also we as students will mostly ignore the about page and go straight to the activities to be done. 
+
+- Having a gamified website will make the whole experience for the students more enjoyable and also stress-free, pages like leaderboard and reward page will motivate users to use these website more to achieve their goal of reaching certain level and position in leaderboard.
+
+- To us, we feel that if this was a actual learning platform, we would also enjoy this website and also have the keen to do our work on time with these exciting website.
+
+## Design Process
 
 This website is mainly designed for students whos eager to learn and want to achieve a goal of reaching certainlevel to receive amazing rewards.
 
@@ -37,42 +48,40 @@ As a user, I want the website to be engaging and interactive to have a fun learn
 
 Wireframe link:
 
-# Features
+### Features
 
-<h2>Existing Features</h2>
+## Existing Features
 
--Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
+- Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
 
--Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website
+- Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website
 
--Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
+- Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
 
-- Feature 4 - Profile comments - Users can comment on their profile (No database/api to store comments yet)
+- Feature 4 - Profile Comments - Users can comment on their profile (No database/api to store comments yet)
 
-- Feature 5 -
+- Feature 5 - Level Bar In Modules Page - Users can view which level they are in that certain module.
 
-- Feature 6 - Footer
+- Feature 6 - Footer - Users can view information about the company, have menu bar links, CEO's Contacts and Newletters so that users can have information that they need and also put in their email for emails from the company for special offers.
 
-- Feature 7 - Module page
+- Feature 7 - Module page - Users can view at the points given for each assignments done and wuizzes done so they can do work quickly to earn the EXP points to get the reward they want.
 
-- Feature 8 - Profile page
+- Feature 8 - Profile page - Users can see 
 
--Feature 9 - 3D Badges/Awards to showcase on user's profile page
+- Feature 9 - 3D Badges/Awards to showcase on user's profile page
 
--Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
+- Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
 
--Feature 11 - Discussion page - Users can view post
+- Feature 11 - Discussion page - Users can view post
 
-# Features Left to Implement
+## Features Left to Implement
 
 Some of the featueres that we have yet to implement:
+-Submission tab for students to submit their assignments
+-Quizzes tab with scores for more gamification
+-Avatar and currency system to buy/unlock avatar cosmetics for more gamification
 
--Submission tab for students to submit their assignments.
--Quizzes tab with scores for more gamification.
--Avatar and currency system to buy/unlock avatar cosmetics for more gamification.
-
-# Technologies Used
-
+##Technologies Used
 -HTML
 -CSS
 -Javascript
@@ -95,8 +104,9 @@ RestDB
 The project uses RestDB as a database to store users account login details
 
 LottieAnimation
+To have more interactive and animated diaplay for users to view.
 
-##Testing
+## Testing
 
 Sign Up Form:
 Go to the login page.
@@ -124,18 +134,22 @@ Try to submit the form with all inputs valid and verify that a success message a
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 
-##Credits
+## Credits
+
 Content
-The text for section Y was copied from the Wikipedia article Z
 
-##Media
-The photos used in this site were obtained from ...
-Module images created by us
+- The text for all the website pages is done by both Dhilsha and Curtis, while for Homepage and Modules Pages, some informations is taken from Politemall from that certain modules.
 
-flaticon
-fontawesome
+## Media
 
-##Acknowledgements
-We received inspiration from the current brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot! and others.
+The pictures from Homepage To SignUp page is from Unsplash and Pexels Website.
+ 
+The module images is created in illustrator by Curtis.
+
+The fonts are from Google Fonts Website.
+
+The icons are from Font Awesome and Flaticon website.
+
+## Acknowledgements
 
 We received inspiration from the current Brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot!.
