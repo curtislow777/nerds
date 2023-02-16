@@ -54,32 +54,29 @@
   border-radius: 1rem;
 }
 
-
-
 #level{
   text-align: right;
 }
 
-  .skills{
-    width: 100%;
-    max-width: 600px;
-    padding: 0 20px;
-  }
+.skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
 
-  .skills h2{
-    font-weight: 400;
-    font-size: 16px;
-  
-  }
+.skills h2{
+  font-weight: 400;
+  font-size: 16px;
+}
 
-  .progress-bar{
-    background-color: #FFFFFF;
-    width: 500px;
-    height: 25px;
-    border-radius: 10px;
-  }
+.progress-bar{
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+}
 
-  .progress-bar div{
+ .progress-bar div{
     height: 25px;
     border-radius: 10px;
     width: 0%;
