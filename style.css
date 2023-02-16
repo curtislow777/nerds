@@ -504,6 +504,7 @@ body {
   max-width: 300px;
 }
 .col-8{
+  font-size: 40px;
 }
 
 .col-4{
@@ -543,7 +544,39 @@ body {
    margin-top: 20px;
 }
 
+.bar-container{
+  display: flex;
+  justify-content: center;
+}
 
+h1.level{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.progress-bar1{
+  background-color: #9c9898;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.progress-bar1 div{
+  height: 50px;
+  border-radius: 10px;
+  width: 0%;
+}
+
+.mod-1{
+background-color: #F07167;
+animation: mod-1 1s linear forwards;
+}
+
+@keyframes mod-1{
+  100%{
+    width: 25%;
+  }
+}
 
 
 
