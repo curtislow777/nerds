@@ -22,6 +22,8 @@
   /**
    * typography
    */
+  --ff-roboto: 'Roboto', sans-serif;
+  --ff-josefin-sans: 'Josefin Sans', sans-serif;
   --fs-1: 3rem;
   --fs-2: 2.6rem;
   --fs-3: 2.2rem;
@@ -125,6 +127,9 @@ body {
 ::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
+
+
+
 /*-----------------------------------*\
  * #REUSED STYLE
 \*-----------------------------------*/
@@ -221,6 +226,7 @@ body {
   transition: var(--transition-2);
 }
 
+.product-card:is(:hover, :focus) .image-contain { transform: scale(1.1); }
 
 .card-badge {
   position: absolute;
@@ -240,6 +246,11 @@ body {
   right: -20px;
   opacity: 0;
   transition: var(--transition-1);
+}
+
+.product-card:is(:hover, :focus) .card-action-list {
+  right: 20px;
+  opacity: 1;
 }
 
 .card-action-item { position: relative; }
@@ -281,15 +292,45 @@ body {
 
 .card-action-btn:is(:hover, :focus) + .card-action-tooltip { opacity: 1; }
 
+.card-content {
+  padding: 24px 15px 0;
+  text-align: center;
+}
 
-.card-title { margin-bottom: 12px; }
+.card-cat {
+  font-family: var(--ff-roboto);
+  color: var(--onyx);
+  font-size: var(--fs-7);
+  margin-bottom: 12px;
+}
 
-.card-title > a {
+.card-cat-link {
+  display: inline-block;
   color: inherit;
   transition: var(--transition-1);
 }
 
-.card-title > a:is(:hover, :focus) { color: var(--bittersweet); }
+.card-cat-link:is(:hover, :focus) { color: var(--bittersweet); }
+
+.product-card .card-title { margin-bottom: 12px; }
+
+.product-card .card-title > a {
+  color: inherit;
+  transition: var(--transition-1);
+}
+
+.product-card .card-title > a:is(:hover, :focus) { color: var(--bittersweet); }
+
+.card-price {
+  color: var(--bittersweet);
+  font-family: var(--ff-roboto);
+  font-weight: var(--fw-600);
+}
+
+.card-price del {
+  color: var(--gray-x-11-gray);
+  margin-left: 8px;
+}
 
 .btn-link {
   --background: none;
@@ -749,6 +790,21 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   padding-inline: 20px;
 }
 
+.footer-bottom {
+  background: var(--rich-black-fogra-29);
+  padding-block: 20px;
+}
+
+.copyright {
+  text-align: center;
+  color: var(--white);
+}
+
+.copyright-link {
+  display: inline-block;
+  color: var(--bittersweet);
+}
+
 
 
 
@@ -830,6 +886,36 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
   .hero-text { font-size: var(--fs-7); }
 
+
+
+  /**
+   * PRODUCTS
+   */
+
+  .product-list { grid-template-columns: 1fr 1fr; }
+
+
+
+  /**
+   * CTA
+   */
+
+  .cta-card { text-align: left; }
+
+  .cta-card .card-title { max-width: 14ch; }
+
+  .cta-card .btn-link { margin-inline: 0; }
+
+
+
+  /**
+   * INSTA POST
+   */
+
+  .insta-post-list .insta-post-item { min-width: 25%; }
+
+
+
   /**
    * FOOTER
    */
@@ -849,6 +935,9 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
 }
+
+
+
 
 
 /**
@@ -990,6 +1079,21 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   .hero { height: 480px; }
 
 
+
+  /**
+   * PRODUCTS
+   */
+
+  .product-list { grid-template-columns: repeat(3, 1fr); }
+
+
+
+}
+
+
+
+
+
 /**
  * responsive for larger than 1200px screen
  */
@@ -1012,11 +1116,13 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
 
+
   /**
    * REUSED STYLE
    */
 
   .container { max-width: 1280px; }
+
 
 
   /**
@@ -1031,6 +1137,18 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     font-size: var(--fs-6);
     max-width: 50ch;
   }
+
+
+
+  /**
+   * PRODUCTS
+   */
+
+  .product-list { grid-template-columns: repeat(4, 1fr); }
+
+
+
+
 
   /**
    * FOOTER
@@ -1089,9 +1207,15 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
   }
 
+body.reward{
+    font-family: 'Quicksand', sans-serif;
+}
 
 /* Utility stylings */
-
+img{
+    width: 100%;
+    display: block;
+}
 .container{
     width: 88vw;
     margin: 0 auto;
@@ -1126,7 +1250,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     opacity: 0.5;
     margin: 0.4rem 0;
 }
-/*reward??*/
+
 /* announcement section*/
 .products{
     background: var(--alice-blue);
@@ -1342,3 +1466,4 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
         height: 121.5vh;
     }
 }
+
