@@ -48,7 +48,7 @@ As a user, I want the website to be engaging and interactive to have a fun learn
 
 Wireframe link:
 
-### Features
+## Features
 
 ## Existing Features
 
