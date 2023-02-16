@@ -78,12 +78,11 @@ https://xd.adobe.com/view/cd5930a9-88d3-4ae3-b663-aeabcf7fb76b-980a/
 ## Features Left to Implement
 
 - Some of the featueres that we have yet to implement:
+- Submission tab for students to submit their assignments
+- Quizzes tab with scores for more gamification
+- Avatar and currency system to buy/unlock avatar cosmetics for more gamification
 
--Submission tab for students to submit their assignments
--Quizzes tab with scores for more gamification
--Avatar and currency system to buy/unlock avatar cosmetics for more gamification
-
-##Technologies Used
+## Technologies Used
 -HTML
 -CSS
 -Javascript
@@ -92,9 +91,11 @@ https://xd.adobe.com/view/cd5930a9-88d3-4ae3-b663-aeabcf7fb76b-980a/
 -RestDB API
 -LottieAnimation
 
-
 - Bootstrap 5:
 We used bootstrap's container, grid layout and cards for its responsiveness.
+
+
+
 
 - JQuery:
 The project uses JQuery to simplify DOM manipulation.
@@ -153,6 +154,8 @@ Content
 - The fonts are from Google Fonts Website.
 
 - The icons are from Font Awesome and Flaticon website.
+
+- 3D models are modelled and textured by both of us.
 
 ## Acknowledgements
 
