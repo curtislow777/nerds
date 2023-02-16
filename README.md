@@ -10,6 +10,7 @@ Essentially, this part is your sales pitch.
 
 ## **Design Process**
 
+This website is designed for students
 
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -18,23 +19,74 @@ In particular, as part of this section we recommend that you provide a list of U
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 
+User Story #1:
+As a student, I want to be able to view my grades/level/exp points for my modules so I understand how I'm performing.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+User Story #2:
+As a student, I want to be able to create and have my own account so I can view my own profile
+
+User Story #3:
+As a student, I want to be able to view the leaderboard so i can compete with the top students and know my standing
+
+User Story #4:
+As a user I want a navigation bar so I can navigate around the website easily
+
+User Story #5:
+As a student, I want to be able to view my modules so I can access the learning materials
+
+User Story #6:
+As a user, I want the website to be engaging and interactive 
+
+
+
+
+wireframe/docs
+
 
 ### Features
-
 ## Existing Features
 - Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
 
+
 - Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website
 
-- Feature 3 - 
 
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
+
+
+- Feature 4 - Profile comments - Users can comment on their profile (No database/api to store comments yet) 
+
+
+- Feature 5 - 
+
+
+- Feature 6 - Footer 
+
+
+- Feature 7 - Module page
+
+
+- Feature 8 - Profile page
+
+- Feature 9 - 3D Badges/Awards to showcase on user's profile page 
+
+
+- Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
+
+
+- Feature 11 - Discussion page - Users can view post
+
+
+
 
 ## Features Left to Implement
-Another feature idea
+
+Some of the featueres that we have yet to implement:
+-Submission tab for students to submit their assignments
+-Quizzes tab with scores for more gamification
+-Avatar and currency system to buy/unlock avatar cosmetics for more gamification 
+
+
 
 ##Technologies Used
 -HTML
@@ -43,13 +95,15 @@ Another feature idea
 -JQuery
 -Bootstrap
 -RestDB API
+-LottieAnimation
+
+
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 
 Bootstrap 5
-We used bootstrap's container and grid layout for its responsiveness.
-
+We used bootstrap's container, grid layout and cards for its responsiveness.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -75,6 +129,29 @@ LottieAnimation
 ##Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
+
+
+Sign Up Form:
+Go to the login page.
+
+
+Sign In Form:
+Go to the login page
+Try to submit the empty form and verify an error message shows
+Try to log in with the wrong email or password and verify an error message shows
+Try to log in with a valid email and password and verify it redirects to the homepage
+
+Commenting feature
+Go to the profile page
+Try to put in a comment in the message box and submit and verify if it appears
+(bug with comments appearing above each other instead of descending order)
+
+
+
+
+
+
+
 Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
@@ -89,7 +166,15 @@ If this section grows too long, you may want to split it off into a separate fil
 ##Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
+
+
 ##Media
 The photos used in this site were obtained from ...
+Module images created by us
+
+flaticon
+fontawesome
+
+
 ##Acknowledgements
-I received inspiration for this project from X
+We received inspiration from the current brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot! and others.
