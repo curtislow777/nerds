@@ -54,7 +54,7 @@ wireframe/docs
 - Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
 
 
-- Feature 4 -    
+- Feature 4 - Profile comments - Users can comment on their profile (No database/api to store comments yet) 
 
 
 - Feature 5 - 
@@ -68,19 +68,25 @@ wireframe/docs
 
 - Feature 8 - Profile page
 
-
-- Feature 9 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (No)
-
-
-- Feature 10 - Discussion page - Users can view post
+- Feature 9 - 3D Badges/Awards to showcase on user's profile page 
 
 
+- Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
 
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+- Feature 11 - Discussion page - Users can view post
+
+
+
 
 ## Features Left to Implement
-Another feature idea
+
+Some of the featueres that we have yet to implement:
+-Submission tab for students to submit their assignments
+-Quizzes tab with scores for more gamification
+-Avatar and currency system to buy/unlock avatar cosmetics for more gamification 
+
+
 
 ##Technologies Used
 -HTML
@@ -89,15 +95,15 @@ Another feature idea
 -JQuery
 -Bootstrap
 -RestDB API
--LottieAnimationo
+-LottieAnimation
+
 
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 
 Bootstrap 5
-We used bootstrap's container and grid layout for its responsiveness.
-
+We used bootstrap's container, grid layout and cards for its responsiveness.
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
@@ -123,9 +129,27 @@ LottieAnimation
 ##Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
+
+
 Sign Up Form:
+Go to the login page.
+
 
 Sign In Form:
+Go to the login page
+Try to submit the empty form and verify an error message shows
+Try to log in with the wrong email or password and verify an error message shows
+Try to log in with a valid email and password and verify it redirects to the homepage
+
+Commenting feature
+Go to the profile page
+Try to put in a comment in the message box and submit and verify if it appears
+(bug with comments appearing above each other instead of descending order)
+
+
+
+
+
 
 
 Contact form:
