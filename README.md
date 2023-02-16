@@ -52,13 +52,13 @@ Wireframe link:
 
 ## Existing Features
 
-- Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
+- Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons.
 
-- Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website
+- Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website.
 
-- Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
+- Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database.
 
-- Feature 4 - Profile Comments - Users can comment on their profile (No database/api to store comments yet)
+- Feature 4 - Profile Comments - Users can comment on their profile (No database/api to store comments yet).
 
 - Feature 5 - Level Bar In Modules Page - Users can view which level they are in that certain module.
 
@@ -66,13 +66,13 @@ Wireframe link:
 
 - Feature 7 - Module page - Users can view at the points given for each assignments done and wuizzes done so they can do work quickly to earn the EXP points to get the reward they want.
 
-- Feature 8 - Profile page - Users can see 
+- Feature 8 - Profile page - Users can see their achievements overall from their 3D Badge and also their progress for each modules.
 
-- Feature 9 - 3D Badges/Awards to showcase on user's profile page
+- Feature 9 - 3D Badges/Awards to showcase on user's profile page.
 
-- Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
+- Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time).
 
-- Feature 11 - Discussion page - Users can view post
+- Feature 11 - Discussion page - Users can view post posted by other users and also comment on it too.
 
 ## Features Left to Implement
 
@@ -138,7 +138,9 @@ In addition, you should mention in this section how your project looks and works
 
 Content
 
-- The text for all the website pages is done by both Dhilsha and Curtis, while for Homepage and Modules Pages, some informations is taken from Politemall from that certain modules.
+- The text for all the website pages is done by both Dhilsha and Curtis.
+
+- Homepage and Modules Pages, some informations is taken from Politemall from that certain modules.
 
 ## Media
 
