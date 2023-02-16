@@ -720,11 +720,20 @@ iframe{
 
   .badge-card{
     background-color: brown;
-    height:220px
+    height:220px;
+    border-radius: 10px;
+    padding-left: 50px;
+  }
+
+  .badge-card h2{
+    color: white;
+    font-weight: 20px;
+    font-family: "pinot-grigio-modern", sans-serif;
   }
 
   .sketchfab-embed-wrap iframe {
     height: 100%;
+    border-radius: 20px;
   }
 
 
