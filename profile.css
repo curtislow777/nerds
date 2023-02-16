@@ -1,13 +1,5 @@
 @import url("https://use.typekit.net/wpd2upl.css");
 
-body.profile {
-    background-color: #FAEDCD;
-    font-size: 1.6rem;
-    padding-block-start: 90px;
-    font-family: "pinot-grigio-modern", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
 
   .card-profile{
     flex-direction: row;
@@ -232,8 +224,4 @@ body.profile {
   border-radius: 3px;
 }
 
-.comment-box .comment-submit:hover{
-  background-color: blue;
-  
-}
 

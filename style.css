@@ -348,7 +348,6 @@ body {
   background: var(--white);
   position: fixed;
   top: 0;
-  left: -280px;
   width: 100%;
   max-width: 270px;
   height: 100%;
@@ -699,6 +698,217 @@ iframe{
   width: 38px;
   height: 38px;
 }
+
+/* PROFILE PAGE */
+
+
+.container-profile-sm{
+  z-index: 999;
+
+}
+  .card-profile{
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+    border-radius: 1rem;
+  }
+  .card-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 16px;
+  }
+
+  .bar-profile{
+    width: 105%;
+    height: 400px ;
+    background-color: #D4D4CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+  
+  
+  
+  #level{
+    text-align: right;
+  }
+  
+    .skills{
+      width: 100%;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+  
+    .skills h2{
+      font-weight: 400;
+      font-size: 16px;
+    
+    }
+  
+    .progress-bar{
+      background-color: #FFFFFF;
+      width: 500px;
+      height: 25px;
+      border-radius: 10px;
+    }
+  
+    .progress-bar div{
+      height: 25px;
+      border-radius: 10px;
+      width: 0%;
+    }
+  
+  .mod-1{
+    background-color: #F07167;
+    animation: mod-1 1s linear forwards;
+  }
+  
+  .mod-2{
+    background-color: #0081A7;
+    animation: mod-2 1s linear forwards;
+  }
+  
+  .mod-3{
+    background-color: #F5A624;
+    animation: mod-3 1s linear forwards;
+  }
+  
+  .mod-4{
+    background-color: #2FCCAD;
+    animation: mod-4 1s linear forwards;
+  
+  }
+  
+  @keyframes mod-1{
+    100%{
+      width: 25%;
+    }
+  }
+  
+  @keyframes mod-2{
+    100%{
+      width: 74%;
+    }
+  }
+  
+  @keyframes mod-3{
+    100%{
+      width: 35%;
+    }
+  }
+  
+  @keyframes mod-4{
+    100%{
+      width: 50%;
+    }
+  }
+  
+  
+  .list{
+    margin-top: 50px;
+  }
+  
+  
+    .comment-box,
+    .post-comment .list{
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 2px black;
+      margin-top: 20px;
+    }
+  
+  .comment-section{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .post-comment .list{
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .post-comment .list .user{
+    display: flex;
+    padding: 8px;
+    overflow: hidden;
+  }
+  
+  .post-comment .list .user img{
+    height: 38px;
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;  
+  }
+  
+  .comment-section .name{
+    text-transform: uppercase;
+  }
+  
+  .post-comment .list .day{
+    font-size: 12px;
+  }
+  
+  .post-comment{
+    padding: 0 0 15px 58px
+  }
+  
+  
+  
+  
+  #comment-box{
+    border:none;
+    border-radius: 5px;
+  }
+  
+  
+  .comment-box .user{
+    display: flex;
+    width: min-content;
+  }
+  
+  .comment-box .image img{
+    width:24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .comment-box textarea{
+    height: 50px;
+    width: 1 ;
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px black;
+  }
+  
+  .comment-box textarea:focus-visible
+  
+  
+  
+  .comment-box .comment-submit{
+    padding: 10px 10px;
+    border: none;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .comment-box .comment-submit:hover{
+    background-color: blue;
+    
+  }
+  
+  
+
+
+
 
 /*-----------------------------------*\
  * #INDEX ANNOUNCEMENT
