@@ -2,76 +2,89 @@
 
 # NERDGE
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+-Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points.
 
-Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points
+-Our website mainly focuses on engaging students with fun learning as we as students feel that engage learning can have students to be more curious and also the interest to learn more.
 
-Essentially, this part is your sales pitch.
+-We displayed similar learning points from how its taught to us in school itself, but in our website not only does it display the learning points but also animations and also cartoon and colourful display.
 
-## **Design Process**
+-This is a company that we came up as we think that student mostly are stress so to relieve stress we decided to make a website thats less stressfull to look at.
 
-This website is designed for students
+-We got inspired by our own learning experience and also learning platforms like Kahoot and Politemall.
+I also feel like bright colours like salmon, has a calming and chill effect to viewers which is why its set as one of the theme colours. 
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+-Why we don't have a about page? We find it weird to have a about page for a learning platform and also we as students will mostly ignore the about page and go straight to the activities to be done. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+-Having a gamified website will make the whole experience for the students more enjoyable and also stress-free, pages like leaderboard and reward page will motivate users to use these website more to achieve their goal of reaching certain level and position in leaderboard.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
+-To us, we feel that if this was a actual learning platform, we would also enjoy this website and also have the keen to do our work on time with these exciting website.
+
+
+# Design Process
+
+This website is mainly designed for students whos eager to learn and want to achieve a goal of reaching certainlevel to receive amazing rewards.
+
+The website achieves the purpose of having a learning experience but in a fun and engaing way for students to be more keeen to studying. The way the website is designed is just the way how the students think and mostly like a trendsetting for the students. As NERDGE itself is actually a meme where some students may know from and will be more keen to view this website as not only they have something to look at what they relate too but also learn with a fun mindset.
+
+This is a website that may become famous amoung students as the website is the start base of our company so the more the students use the more the buisness grows and with how the website is beneficial to the stars and the reviews given after using the website, the buisness will be able to grow more and the goal of the buisness to be achieved when this platform is shared among social media and used by student worldwide.
+
 
 User Story #1:
 As a student, I want to be able to view my grades/level/exp points for my modules so I understand how I'm performing.
 
 User Story #2:
-As a student, I want to be able to create and have my own account so I can view my own profile
+As a student, I want to be able to create and have my own account so I can view my own profile.
 
 User Story #3:
-As a student, I want to be able to view the leaderboard so i can compete with the top students and know my standing
+As a student, I want to be able to view the leaderboard so i can compete with the top students and know my standing.
 
 User Story #4:
-As a user I want a navigation bar so I can navigate around the website easily
+As a user I want a navigation bar so I can navigate around the website easily.
 
 User Story #5:
-As a student, I want to be able to view my modules so I can access the learning materials
+As a student, I want to be able to view my modules so I can access the learning materials.
 
 User Story #6:
-As a user, I want the website to be engaging and interactive
+As a user, I want the website to be engaging and interactive to have a fun learning when doing work.
 
-wireframe/docs
+Wireframe link:
 
-### Features
+# Features
 
-## Existing Features
+<h2>Existing Features</h2>
 
-- Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
+-Feature 1 - Navigation Bar - Allows users to direct them to different pages of the website by clicking on the buttons
 
-- Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website
+-Feature 2 - Logo Button - Users can click on the logo to go back to the homepage of the website
 
-- Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
+-Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
 
-- Feature 4 - Profile comments - Users can comment on their profile (No database/api to store comments yet)
+-Feature 4 - Profile Comments - Users can comment on their profile (No database/api to store comments yet)
 
-- Feature 5 -
+-Feature 5 - Level Bar In Modules Page - Users can view which level they are in that certain module.
 
-- Feature 6 - Footer
+-Feature 6 - Footer - Users can view information about the company, have menu bar links, CEO's Contacts and Newletters so that users can have information that they need and also put in their email for emails from the company for special offers.
 
-- Feature 7 - Module page
+-Feature 7 - Module page - Users can view at the points given for each assignments done and wuizzes done so they can do work quickly to earn the EXP points to get the reward they want.
 
-- Feature 8 - Profile page
+-Feature 8 - Profile page - Users can see 
 
-- Feature 9 - 3D Badges/Awards to showcase on user's profile page
+-Feature 9 - 3D Badges/Awards to showcase on user's profile page
 
-- Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
+-Feature 10 - Leaderboard page - Users can view the leaderboard of the top students in the current semester (Not updated in real time)
 
-- Feature 11 - Discussion page - Users can view post
+-Feature 11 - Discussion page - Users can view post
 
-## Features Left to Implement
+# Features Left to Implement
 
 Some of the featueres that we have yet to implement:
--Submission tab for students to submit their assignments
--Quizzes tab with scores for more gamification
--Avatar and currency system to buy/unlock avatar cosmetics for more gamification
 
-##Technologies Used
+-Submission tab for students to submit their assignments.
+-Quizzes tab with scores for more gamification.
+-Avatar and currency system to buy/unlock avatar cosmetics for more gamification.
+
+# Technologies Used
+
 -HTML
 -CSS
 -Javascript
@@ -80,7 +93,6 @@ Some of the featueres that we have yet to implement:
 -RestDB API
 -LottieAnimation
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 Bootstrap 5
 We used bootstrap's container, grid layout and cards for its responsiveness.
@@ -95,9 +107,10 @@ RestDB
 The project uses RestDB as a database to store users account login details
 
 LottieAnimation
+To have more interactive and animated diaplay for users to view.
+
 
 ##Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Sign Up Form:
 Go to the login page.
@@ -128,16 +141,20 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-##Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
+# Content
 
-##Media
-The photos used in this site were obtained from ...
-Module images created by us
+-The text for all the website pages is done by both Dhilsha and Curtis, while for Homepage and Modules Pages, some informations is taken from Politemall from that certain modules.
 
-flaticon
-fontawesome
+# Media
 
-##Acknowledgements
-We received inspiration from the current brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot! and others.
+The pictures from Homepage To SignUp page is from Unsplash and Pexels Website.
+ 
+The module images is created in illustrator by Curtis.
+
+The fonts are from Google Fonts Website.
+
+The icons are from Font Awesome and Flaticon website.
+
+# Acknowledgements
+
+We received inspiration from the current Brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot!.
