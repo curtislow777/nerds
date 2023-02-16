@@ -715,13 +715,8 @@ iframe{
     background-color: grey;
     border-radius: 1rem;
   }
-  .card-title {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .card-text{
-    font-size: 16px;
-  }
+  
+  
 
   .badge-card{
     background-color: brown;
@@ -825,13 +820,13 @@ iframe{
   }
   
   
-    .comment-box,
-    .post-comment .list{
-      background-color: white;
-      border-radius: 5px;
-      box-shadow: 0 2px 2px black;
-      margin-top: 20px;
-    }
+  .comment-box,
+  .post-comment .list{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px black;
+    margin-top: 20px;
+  }
   
   .comment-section{
     width: 100%;
@@ -869,14 +864,10 @@ iframe{
     padding: 0 0 15px 58px
   }
   
-  
-  
-  
   #comment-box{
     border:none;
     border-radius: 5px;
   }
-  
   
   .comment-box .user{
     display: flex;
@@ -900,10 +891,7 @@ iframe{
     box-shadow: 0 0 0 1px black;
   }
   
-  .comment-box textarea:focus-visible
-  
-  
-  
+
   .comment-box .comment-submit{
     padding: 10px 10px;
     border: none;
@@ -1714,3 +1702,25 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     }
 }
 
+.leaderboard {
+	margin: auto;
+	width: 80% !important;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: center;
+	padding: 8px;
+}
+
+th {
+	background-color: #eee;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+} 
