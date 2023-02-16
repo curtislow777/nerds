@@ -21,29 +21,29 @@ I also feel like bright colours like salmon, has a calming and chill effect to v
 
 ## Design Process
 
-This website is mainly designed for students whos eager to learn and want to achieve a goal of reaching certainlevel to receive amazing rewards.
+- This website is mainly designed for students whos eager to learn and want to achieve a goal of reaching certainlevel to receive amazing rewards.
 
-The website achieves the purpose of having a learning experience but in a fun and engaing way for students to be more keeen to studying. The way the website is designed is just the way how the students think and mostly like a trendsetting for the students. As NERDGE itself is actually a meme where some students may know from and will be more keen to view this website as not only they have something to look at what they relate too but also learn with a fun mindset.
+- The website achieves the purpose of having a learning experience but in a fun and engaing way for students to be more keeen to studying. The way the website is designed is just the way how the students think and mostly like a trendsetting for the students. As NERDGE itself is actually a meme where some students may know from and will be more keen to view this website as not only they have something to look at what they relate too but also learn with a fun mindset.
 
-This is a website that may become famous amoung students as the website is the start base of our company so the more the students use the more the buisness grows and with how the website is beneficial to the stars and the reviews given after using the website, the buisness will be able to grow more and the goal of the buisness to be achieved when this platform is shared among social media and used by student worldwide.
+- This is a website that may become famous amoung students as the website is the start base of our company so the more the students use the more the buisness grows and with how the website is beneficial to the stars and the reviews given after using the website, the buisness will be able to grow more and the goal of the buisness to be achieved when this platform is shared among social media and used by student worldwide.
 
 
-User Story #1:
+- User Story #1:
 As a student, I want to be able to view my grades/level/exp points for my modules so I understand how I'm performing.
 
-User Story #2:
+- User Story #2:
 As a student, I want to be able to create and have my own account so I can view my own profile.
 
-User Story #3:
+- User Story #3:
 As a student, I want to be able to view the leaderboard so i can compete with the top students and know my standing.
 
-User Story #4:
+- User Story #4:
 As a user I want a navigation bar so I can navigate around the website easily.
 
-User Story #5:
+- User Story #5:
 As a student, I want to be able to view my modules so I can access the learning materials.
 
-User Story #6:
+- User Story #6:
 As a user, I want the website to be engaging and interactive to have a fun learning when doing work.
 
 Wireframe link:
@@ -76,7 +76,8 @@ Wireframe link:
 
 ## Features Left to Implement
 
-Some of the featueres that we have yet to implement:
+- Some of the featueres that we have yet to implement:
+
 -Submission tab for students to submit their assignments
 -Quizzes tab with scores for more gamification
 -Avatar and currency system to buy/unlock avatar cosmetics for more gamification
@@ -91,42 +92,42 @@ Some of the featueres that we have yet to implement:
 -LottieAnimation
 
 
-Bootstrap 5
+- Bootstrap 5:
 We used bootstrap's container, grid layout and cards for its responsiveness.
 
-JQuery
+- JQuery:
 The project uses JQuery to simplify DOM manipulation.
 
-AJAX JQuery
+- AJAX JQuery:
 The project uses ajax method to get and post data for users to login to the website.
 
-RestDB
-The project uses RestDB as a database to store users account login details
+- RestDB:
+The project uses RestDB as a database to store users account login details and also API implementation.
 
-LottieAnimation
+- Lottie Animation:
 To have more interactive and animated diaplay for users to view.
 
 ## Testing
 
-Sign Up Form:
+- Sign Up Form:
 Go to the login page.
 Click on the sign up button.
 Try to submit blank form and verify tht an error message about the required fields appear
 Try to submit form with invalid email address and verify that a relevant error message appears
 Try to create an account and verify account created is shown
 
-Sign In Form:
+- Sign In Form:
 Go to the login page
 Try to submit the empty form and verify an error message shows
 Try to log in with the wrong email or password and verify an error message shows
 Try to log in with a valid email and password and verify it redirects to the homepage
 
-Commenting Feature:
+- Commenting Feature:
 Go to the profile page
 Try to put in a comment in the message box and submit and verify if it appears
 (bug with comments appearing above each other instead of descending order)
 
-Contact Form:
+- Contact Form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
@@ -144,13 +145,13 @@ Content
 
 ## Media
 
-The pictures from Homepage To SignUp page is from Unsplash and Pexels Website.
+- The pictures from Homepage To SignUp page is from Unsplash and Pexels Website.
  
-The module images is created in illustrator by Curtis.
+- The module images is created in illustrator by Curtis.
 
-The fonts are from Google Fonts Website.
+- The fonts are from Google Fonts Website.
 
-The icons are from Font Awesome and Flaticon website.
+- The icons are from Font Awesome and Flaticon website.
 
 ## Acknowledgements
 
