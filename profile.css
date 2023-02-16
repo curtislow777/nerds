@@ -1,20 +1,15 @@
 @import url("https://use.typekit.net/wpd2upl.css");
 
-body {
-    background-color: #FAEDCD;
-    font-size: 1.6rem;
-    padding-block-start: 90px;
-    font-family: "pinot-grigio-modern", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
 
-  .card {
+
+
+  .card-profile{
     flex-direction: row;
     align-items: center;
     background-color: grey;
     border-radius: 1rem;
   }
+  
   .card-title {
     font-weight: bold;
     font-size: 20px;
