@@ -2,22 +2,10 @@
 
 # NERDGE
 
--Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points.
+One or two paragraphs providing an overview of your project. Tell us about your project.
 
--Our website mainly focuses on engaging students with fun learning as we as students feel that engage learning can have students to be more curious and also the interest to learn more.
+Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points
 
--We displayed similar learning points from how its taught to us in school itself, but in our website not only does it display the learning points but also animations and also cartoon and colourful display.
-
--This is a company that we came up as we think that student mostly are stress so to relieve stress we decided to make a website thats less stressfull to look at.
-
--We got inspired by our own learning experience and also learning platforms like Kahoot and Politemall.
-I also feel like bright colours like salmon, has a calming and chill effect to viewers which is why its set as one of the theme colours. 
-
--Why we don't have a about page? We find it weird to have a about page for a learning platform and also we as students will mostly ignore the about page and go straight to the activities to be done. 
-
--Having a gamified website will make the whole experience for the students more enjoyable and also stress-free, pages like leaderboard and reward page will motivate users to use these website more to achieve their goal of reaching certain level and position in leaderboard.
-
--To us, we feel that if this was a actual learning platform, we would also enjoy this website and also have the keen to do our work on time with these exciting website.
 
 
 # Design Process
@@ -59,15 +47,15 @@ Wireframe link:
 
 -Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
 
--Feature 4 - Profile Comments - Users can comment on their profile (No database/api to store comments yet)
+- Feature 4 - Profile comments - Users can comment on their profile (No database/api to store comments yet)
 
--Feature 5 - Level Bar In Modules Page - Users can view which level they are in that certain module.
+- Feature 5 -
 
--Feature 6 - Footer - Users can view information about the company, have menu bar links, CEO's Contacts and Newletters so that users can have information that they need and also put in their email for emails from the company for special offers.
+- Feature 6 - Footer
 
--Feature 7 - Module page - Users can view at the points given for each assignments done and wuizzes done so they can do work quickly to earn the EXP points to get the reward they want.
+- Feature 7 - Module page
 
--Feature 8 - Profile page - Users can see 
+- Feature 8 - Profile page
 
 -Feature 9 - 3D Badges/Awards to showcase on user's profile page
 
@@ -107,14 +95,12 @@ RestDB
 The project uses RestDB as a database to store users account login details
 
 LottieAnimation
-To have more interactive and animated diaplay for users to view.
-
 
 ##Testing
 
 Sign Up Form:
 Go to the login page.
-Click on the sign up button
+Click on the sign up button.
 Try to submit blank form and verify tht an error message about the required fields appear
 Try to submit form with invalid email address and verify that a relevant error message appears
 Try to create an account and verify account created is shown
@@ -125,36 +111,31 @@ Try to submit the empty form and verify an error message shows
 Try to log in with the wrong email or password and verify an error message shows
 Try to log in with a valid email and password and verify it redirects to the homepage
 
-Commenting feature
+Commenting Feature:
 Go to the profile page
 Try to put in a comment in the message box and submit and verify if it appears
 (bug with comments appearing above each other instead of descending order)
 
-Contact form:
+Contact Form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+##Credits
+Content
+The text for section Y was copied from the Wikipedia article Z
 
-# Content
+##Media
+The photos used in this site were obtained from ...
+Module images created by us
 
--The text for all the website pages is done by both Dhilsha and Curtis, while for Homepage and Modules Pages, some informations is taken from Politemall from that certain modules.
+flaticon
+fontawesome
 
-# Media
-
-The pictures from Homepage To SignUp page is from Unsplash and Pexels Website.
- 
-The module images is created in illustrator by Curtis.
-
-The fonts are from Google Fonts Website.
-
-The icons are from Font Awesome and Flaticon website.
-
-# Acknowledgements
+##Acknowledgements
+We received inspiration from the current brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot! and others.
 
 We received inspiration from the current Brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot!.
