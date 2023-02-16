@@ -58,15 +58,15 @@ Wireframe link:
 
 - Feature 3 - Sign up/Sign in page - Users can sign up for an account and log in with our restDB database
 
-- Feature 4 - Profile comments - Users can comment on their profile (No database/api to store comments yet)
+- Feature 4 - Profile Comments - Users can comment on their profile (No database/api to store comments yet)
 
-- Feature 5 -
+- Feature 5 - Level Bar In Modules Page - Users can view which level they are in that certain module.
 
-- Feature 6 - Footer
+- Feature 6 - Footer - Users can view information about the company, have menu bar links, CEO's Contacts and Newletters so that users can have information that they need and also put in their email for emails from the company for special offers.
 
-- Feature 7 - Module page
+- Feature 7 - Module page - Users can view at the points given for each assignments done and wuizzes done so they can do work quickly to earn the EXP points to get the reward they want.
 
-- Feature 8 - Profile page
+- Feature 8 - Profile page - Users can see 
 
 - Feature 9 - 3D Badges/Awards to showcase on user's profile page
 
@@ -121,12 +121,12 @@ Try to submit the empty form and verify an error message shows
 Try to log in with the wrong email or password and verify an error message shows
 Try to log in with a valid email and password and verify it redirects to the homepage
 
-Commenting feature
+Commenting Feature:
 Go to the profile page
 Try to put in a comment in the message box and submit and verify if it appears
 (bug with comments appearing above each other instead of descending order)
 
-Contact form:
+Contact Form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
@@ -135,15 +135,21 @@ In addition, you should mention in this section how your project looks and works
 
 
 ##Credits
+
 Content
-The text for section Y was copied from the Wikipedia article Z
+
+- The text for all the website pages is done by both Dhilsha and Curtis, while for Homepage and Modules Pages, some informations is taken from Politemall from that certain modules.
 
 ##Media
-The photos used in this site were obtained from ...
-Module images created by us
 
-flaticon
-fontawesome
+The pictures from Homepage To SignUp page is from Unsplash and Pexels Website.
+ 
+The module images is created in illustrator by Curtis.
+
+The fonts are from Google Fonts Website.
+
+The icons are from Font Awesome and Flaticon website.
 
 ##Acknowledgements
-We received inspiration from the current brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot! and others.
+
+We received inspiration from the current Brightspace platforms and other gamification systems which make used of leaderboards, level and points system such as Kahoot!.
