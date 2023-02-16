@@ -409,7 +409,7 @@ body {
 }
 
 .nav-close-btn {
-  color: var(--white);
+  color: var(--salmon);
   position: absolute;
   top: 0;
   right: 0;
@@ -420,11 +420,12 @@ body {
 
 .nav-close-btn ion-icon { --ionicon-stroke-width: 55px; }
 
-.nav-close-btn:is(:hover, :focus) { color: var(--white); }
+.nav-close-btn:is(:hover, :focus) { color: var(--salmon); }
 
 .navbar .logo {
-  background: var(--maximum-blue-green_10);
-  padding-block: 70px 70px;
+  background: var(--white);
+  padding-block: 90px 90px;
+  padding-left: 50px;
 }
 
 .navbar .logo img { margin-inline: auto; }
@@ -443,7 +444,7 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--white); }
+.navbar-link:is(:hover, :focus) { color: var(--o); }
 
 .navbar-item:not(:last-child) { border-bottom: 1px solid var(--gainsboro); }
 
@@ -459,7 +460,7 @@ body {
   transition: var(--transition-1);
 }
 
-.nav-action-btn:is(:hover, :focus) { color: var(--white); }
+.nav-action-btn:is(:hover, :focus) { color: var(--onyx); }
 
 .nav-action-btn ion-icon {
   font-size: 22px;
@@ -544,12 +545,47 @@ body {
   max-width: 300px;
 }
 .col-8{
-  font-size: 20px;
+  font-size: 40px;
+}
+
+.col-4{
+  font-size: 40px;
 }
 
 .card{
   padding-top: 20px;
+  background-color: #ff6a5b;
 }
+
+.card1{
+  padding-top: 20px;
+  background-color:  #0081A7;
+  border-radius: 50px;
+}
+
+
+.btn0 {
+  padding-left: 85px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.card-title{
+  font-size: 30px;
+  padding-left: 150px;
+}
+
+.card-text{
+  font-size: 20px;
+  padding-left: 180px;
+  color: #fff;
+}
+.img1{
+   margin-left: 200px;
+   margin-top: 20px;
+}
+
+
 
 
 
@@ -1432,3 +1468,56 @@ img{
     }
 }
 
+iframe{
+margin-left: 500px;
+}
+
+.body.modules{
+  background-color: #fff;
+  
+}
+
+.card0{
+  padding-top: 20px;
+  background-color: white;
+}
+.progress-bar1{
+  background-color: rgb(222, 222, 222);
+  width: 900px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 180px;
+  margin-top: 200px;
+}
+
+.progress-bar1 div{
+  height: 50px;
+  border-radius: 10px;
+  width: 0%;
+  display:flex;
+  justify-content: center;
+}
+.module-1{
+  background-color: #F07167;
+  animation: mod-1 1s linear forwards;
+  }
+
+  @keyframes mod-1{
+    100%{
+      width: 70%;
+    }
+    }
+
+    .progress-text{
+
+      margin-left: 180px;
+      margin-top: 40px;
+      margin-bottom: -180px;
+    }
+   
+    .progress-text h1{
+
+      font-size: 40px;
+      
+    }
+        

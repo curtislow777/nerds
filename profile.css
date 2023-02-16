@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/wpd2upl.css");
 
-body {
+body.profile {
     background-color: #FAEDCD;
     font-size: 1.6rem;
     padding-block-start: 90px;
