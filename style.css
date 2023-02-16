@@ -545,7 +545,6 @@ body {
   max-width: 300px;
 }
 .col-8{
-  font-size: 40px;
 }
 
 .col-4{
@@ -1468,56 +1467,3 @@ img{
     }
 }
 
-iframe{
-margin-left: 500px;
-}
-
-.body.modules{
-  background-color: #fff;
-  
-}
-
-.card0{
-  padding-top: 20px;
-  background-color: white;
-}
-.progress-bar1{
-  background-color: rgb(222, 222, 222);
-  width: 900px;
-  height: 50px;
-  border-radius: 10px;
-  margin-left: 180px;
-  margin-top: 200px;
-}
-
-.progress-bar1 div{
-  height: 50px;
-  border-radius: 10px;
-  width: 0%;
-  display:flex;
-  justify-content: center;
-}
-.module-1{
-  background-color: #F07167;
-  animation: mod-1 1s linear forwards;
-  }
-
-  @keyframes mod-1{
-    100%{
-      width: 70%;
-    }
-    }
-
-    .progress-text{
-
-      margin-left: 180px;
-      margin-top: 40px;
-      margin-bottom: -180px;
-    }
-   
-    .progress-text h1{
-
-      font-size: 40px;
-      
-    }
-        

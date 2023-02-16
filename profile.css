@@ -9,12 +9,13 @@ body.profile {
     font-style: normal;
   }
 
-  .card {
+  .card-profile{
     flex-direction: row;
     align-items: center;
     background-color: grey;
     border-radius: 1rem;
   }
+  
   .card-title {
     font-weight: bold;
     font-size: 20px;
