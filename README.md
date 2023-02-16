@@ -2,41 +2,51 @@
 
 # NERDGE
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+- Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points.
 
-Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points
+- Our website mainly focuses on engaging students with fun learning as we as students feel that engage learning can have students to be more curious and also the interest to learn more.
 
-Essentially, this part is your sales pitch.
+- We displayed similar learning points from how its taught to us in school itself, but in our website not only does it display the learning points but also animations and also cartoon and colourful display.
+
+- This is a company that we came up as we think that student mostly are stress so to relieve stress we decided to make a website thats less stressfull to look at.
+
+- We got inspired by our own learning experience and also learning platforms like Kahoot and Politemall.
+I also feel like bright colours like salmon, has a calming and chill effect to viewers which is why its set as one of the theme colours. 
+
+- Why we don't have a about page? We find it weird to have a about page for a learning platform and also we as students will mostly ignore the about page and go straight to the activities to be done. 
+
+- Having a gamified website will make the whole experience for the students more enjoyable and also stress-free, pages like leaderboard and reward page will motivate users to use these website more to achieve their goal of reaching certain level and position in leaderboard.
+
+- To us, we feel that if this was a actual learning platform, we would also enjoy this website and also have the keen to do our work on time with these exciting website.
 
 ## **Design Process**
 
-This website is designed for students
+This website is mainly designed for students whos eager to learn and want to achieve a goal of reaching certainlevel to receive amazing rewards.
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website achieves the purpose of having a learning experience but in a fun and engaing way for students to be more keeen to studying. The way the website is designed is just the way how the students think and mostly like a trendsetting for the students. As NERDGE itself is actually a meme where some students may know from and will be more keen to view this website as not only they have something to look at what they relate too but also learn with a fun mindset.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+This is a website that may become famous amoung students as the website is the start base of our company so the more the students use the more the buisness grows and with how the website is beneficial to the stars and the reviews given after using the website, the buisness will be able to grow more and the goal of the buisness to be achieved when this platform is shared among social media and used by student worldwide.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
 
 User Story #1:
 As a student, I want to be able to view my grades/level/exp points for my modules so I understand how I'm performing.
 
 User Story #2:
-As a student, I want to be able to create and have my own account so I can view my own profile
+As a student, I want to be able to create and have my own account so I can view my own profile.
 
 User Story #3:
-As a student, I want to be able to view the leaderboard so i can compete with the top students and know my standing
+As a student, I want to be able to view the leaderboard so i can compete with the top students and know my standing.
 
 User Story #4:
-As a user I want a navigation bar so I can navigate around the website easily
+As a user I want a navigation bar so I can navigate around the website easily.
 
 User Story #5:
-As a student, I want to be able to view my modules so I can access the learning materials
+As a student, I want to be able to view my modules so I can access the learning materials.
 
 User Story #6:
-As a user, I want the website to be engaging and interactive
+As a user, I want the website to be engaging and interactive to have a fun learning when doing work.
 
-wireframe/docs
+Wireframe link:
 
 ### Features
 
@@ -80,7 +90,6 @@ Some of the featueres that we have yet to implement:
 -RestDB API
 -LottieAnimation
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 Bootstrap 5
 We used bootstrap's container, grid layout and cards for its responsiveness.
@@ -95,13 +104,13 @@ RestDB
 The project uses RestDB as a database to store users account login details
 
 LottieAnimation
+To have more interactive and animated diaplay for users to view.
 
 ##Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Sign Up Form:
 Go to the login page.
-Click on the sign up button
+Click on the sign up button.
 Try to submit blank form and verify tht an error message about the required fields appear
 Try to submit form with invalid email address and verify that a relevant error message appears
 Try to create an account and verify account created is shown
@@ -124,9 +133,6 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ##Credits
 Content
