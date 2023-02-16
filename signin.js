@@ -1,3 +1,7 @@
+function redirectToExample() {
+  window.location.href = "index.html";
+}
+
 $("#login-submit").on("click", function (e) {
   e.preventDefault();
   console.log('login button pressed');
@@ -33,7 +37,11 @@ $("#login-submit").on("click", function (e) {
 
     if (accountFound) {
       console.log("Login successful");
+      redirectToExample();
+
+      
     } else {
+      
 
       var error = document.getElementById("error");
       error.classList.remove("hidden");

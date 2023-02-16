@@ -701,7 +701,6 @@ iframe{
 
 /* PROFILE PAGE */
 
-
 .container-profile-sm{
   margin-top: 100px;
   margin-left: 50px;
@@ -712,12 +711,14 @@ iframe{
   .card-profile{
     flex-direction: row;
     align-items: center;
-    background-color: grey;
+    background-color: salmon;
     border-radius: 1rem;
   }
-  
-  
-
+.card-body {
+  font-family: "pinot-grigio-modern", sans-serif ;
+  color: white;
+  padding-top: 20px;
+}
   .badge-card{
     background-color: brown;
     height:220px;
