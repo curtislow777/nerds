@@ -703,6 +703,9 @@ iframe{
 
 
 .container-profile-sm{
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right:70px;
   z-index: 999;
 
 }
@@ -719,6 +722,16 @@ iframe{
   .card-text{
     font-size: 16px;
   }
+
+  .badge-card{
+    background-color: brown;
+    height:220px
+  }
+
+  .sketchfab-embed-wrap iframe {
+    height: 100%;
+  }
+
 
   .bar-profile{
     width: 105%;
