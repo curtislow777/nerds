@@ -513,6 +513,15 @@ animation: mod-1 1s linear forwards;
   background-color:salmon !important;
 }
 
+.work {
+  text-align: left;
+}
+.exp-gain {
+  text-align: center;
+}
+.due-date {
+  text-align: right;
+}
 
 /*applied to index page embed too*/
 .dog-container{
