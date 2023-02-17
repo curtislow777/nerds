@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <title>NERDGE</title>
+
+  <!--- favicon-->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+  <!--- custom css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="images/banner.jpg" as="image">
+
+</head>
+
+<body id="leaderboard">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+      <a href="#" class="logo">
+        <img src="images/logo.png" width="70" height="70" alt="logo">
+      </a>
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <a href="index.html" class="logo">
+          <img src="images/footer.png " width="150" height="150" alt="logo">
+        </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="modules.html" class="navbar-link">Modules</a>
+          </li>
+          <li class="navbar-item">
+            <a href="discussion.html" class="navbar-link">Discussion</a>
+          </li>
+          <li class="navbar-item">
+            <a href="leaderboard.html" class="navbar-link">Leaderboard</a>
+          </li>
+          <li class="navbar-item">
+            <a href="reward.html" class="navbar-link">Rewards</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+        <ul class="nav-action-list">
+          <li>
+            <a href="profile.html" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+              <span class="nav-action-text">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="login.html" class="nav-action-btn">
+              <ion-icon name="log-in-outline"></ion-icon>
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <h2 id="board">Leaderboards</h2>
+    <h2 class="left">Sem 1.2</h2>
+    <div class="container-board">
+        <div class="podium">
+            <!-- left rectangle -->
+            <div class="rectangle">
+                <p>User 3</p>
+              <div class="image-box">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/72/Tom_nook.jpg" alt="winner" />
+              </div>
+              <div class="circle">3</div>
+            </div>
+            
+            <!-- middle rectangle -->
+            <div class="rectangle">
+                <p>User 1</p>
+              <div class="image-box">
+                <img src="images/Pietro_NH.webp" alt="winner" />
+              </div>
+              <div class="circle">1</div>
+            </div>
+            
+            <!-- right rectangle -->
+            <div class="rectangle">
+                <p>User 2</p>
+              <div class="image-box">
+                <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/72/Tom_nook.jpg" alt="winner" />
+            </div>
+              <div class="circle">2</div>
+            </div>
+          </div>
+    </div>
+    
+    <table class="board">
+        <tr>
+            <th class="numbering-cell">NO.</th>
+            <th class="name-cell">NAME</th>
+            <th class="points-cell">POINTS</th>
+        </tr>
+        <tr>
+            <td class="numbering-cell">1</td>
+            <td class="name-cell"><img src="images/Pietro_NH.webp" width="28" height="28">Name/Group 1</td>
+            <td class="points-cell">10</td>
+        </tr>
+        <tr>
+            <td class="numbering-cell">2</td>
+            <td class="name-cell"><img src="images/Pietro_NH.webp" width="28" height="28">Name/Group 1</td>
+            <td class="points-cell">20</td>
+        </tr>
+        <tr>
+            <td class="numbering-cell">3</td>
+            <td class="name-cell"><img src="images/Pietro_NH.webp" width="28" height="28">Name/Group 1</td>
+            <td class="points-cell">30</td>
+        </tr>
+        <tr>
+            <td class="numbering-cell">4</td>
+            <td class="name-cell"><img src="images/Pietro_NH.webp" width="28" height="28">Name/Group 1</td>
+            <td class="points-cell">40</td>
+        </tr>
+        <tr>
+            <td class="numbering-cell">5</td>
+            <td class="name-cell"><img src="images/Pietro_NH.webp" width="28" height="28">Name/Group 1</td>
+            <td class="points-cell">50</td>
+        </tr>
+        <tr>
+            <td class="numbering-cell">6</td>
+            <td class="name-cell"><img src="images/Pietro_NH.webp" width="28" height="28">Name/Group 1</td>
+            <td class="points-cell">60</td>
+        </tr>
+	</table>
+    
+</body>
+</html>
