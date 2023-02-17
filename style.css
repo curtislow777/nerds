@@ -699,7 +699,7 @@ iframe{
     border-radius: 1rem;
   }
 .card-body {
-  font-family: "pinot-grigio-modern", sans-serif ;
+  font-family: "pinot-grigio-modern", "sans-serif";
   color: white;
   padding-top: 20px;
 }
@@ -713,7 +713,7 @@ iframe{
   .badge-card h2{
     color: white;
     font-weight: 20px;
-    font-family: "pinot-grigio-modern", sans-serif;
+    font-family: "pinot-grigio-modern", "sans-serif";
   }
 
   .sketchfab-embed-wrap iframe {
