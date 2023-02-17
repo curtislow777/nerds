@@ -5,14 +5,9 @@
   /**
    * colors
    */
-  --maximum-blue-green_10: hsla(185, 75%, 45%, 0.1);
   --rich-black-fogra-29: hsl(217, 28%, 9%);
-  --gray-x-11-gray: hsl(0, 0%, 74%);
-  --oxford-blue_60: hsla(230, 41%, 14%, 0.6);
   --bittersweet: hsl(5, 100%, 69%);
-  --smoky-black: rgb(7, 6, 1);
   --gainsboro: hsl(0, 0%, 88%);
-  --black_90: hsla(0, 0%, 0%, 0.9);
   --cultured: hsl(200, 12%, 95%);
   --salmon: hsl(5, 100%, 73%);
   --white: hsl(0, 0%, 100%);
@@ -61,10 +56,6 @@
 
 li { list-style: none; }
 
-.card2{
-  width: 400px;
-}
-
 .fit-image{
   width: 100%;
   object-fit: cover;
@@ -102,7 +93,6 @@ address {
 }
 
 html {
-  font-family: var(--ff-josefin-sans);
   font-size: 10px;
   scroll-behavior: smooth;
 }
@@ -206,13 +196,6 @@ body {
 
 .has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
 
-.card-banner {
-  background: var(--cultured);
-  position: relative;
-  height: 350px;
-  overflow: hidden;
-}
-
 .image-contain {
   width: 100%;
   height: 100%;
@@ -220,7 +203,6 @@ body {
   object-position: center;
   transition: var(--transition-2);
 }
-
 
 .card-badge {
   position: absolute;
@@ -233,54 +215,6 @@ body {
   font-size: var(--fs-7);
   border-radius: 25px;
 }
-
-.card-action-list {
-  position: absolute;
-  top: 20px;
-  right: -20px;
-  opacity: 0;
-  transition: var(--transition-1);
-}
-
-.card-action-item { position: relative; }
-
-.card-action-item:not(:last-child) { margin-bottom: 10px; }
-
-.card-action-btn {
-  background: var(--white);
-  color: var(--rich-black-fogra-29);
-  font-size: 18px;
-  padding: 10px;
-  border-radius: 50%;
-  transition: var(--transition-1);
-}
-
-.card-action-btn ion-icon { --ionicon-stroke-width: 30px; }
-
-.card-action-btn:is(:hover, :focus) {
-  background: var(--bittersweet);
-  color: var(--white);
-}
-
-.card-action-tooltip {
-  position: absolute;
-  top: 50%;
-  right: calc(100% + 5px);
-  transform: translateY(-50%);
-  width: max-content;
-  background: var(--black_90);
-  color: var(--white);
-  font-family: var(--ff-roboto);
-  font-size: var(--fs-7);
-  padding: 4px 8px;
-  border-radius: 4px;
-  opacity: 0;
-  pointer-events: none;
-  transition: var(--transition-1);
-}
-
-.card-action-btn:is(:hover, :focus) + .card-action-tooltip { opacity: 1; }
-
 
 .card-title { margin-bottom: 12px; }
 
@@ -305,9 +239,6 @@ body {
 }
 
 .btn-link:is(:hover, :focus) { border-color: transparent; }
-
-
-
 
 
 /*-----------------------------------*\
@@ -458,8 +389,6 @@ body {
 }
 
 
-
-
 /*-----------------------------------*\
  * #HERO
 \*-----------------------------------*/
@@ -492,17 +421,25 @@ body {
  * #MODULES & SCHEDULE TABS
 \*-----------------------------------*/
 .container2{
-  padding: 10%;
+  padding: 5%;
+}
+
+.gutter {
+  padding: 0 10px;
+  box-sizing: border-box;
+
 }
 
 .card2{
   max-width: 300px;
 }
-
-
 .col-4{
-  font-size: 30px;
-  
+  font-size: 30px; 
+}
+
+.smaller-date {
+  font-size: 16px;
+  margin-left: 160px; 
 }
 
 .card{
@@ -512,9 +449,8 @@ body {
 
 .card1{
   padding-top: 20px;
-  background-color:  #0081A7;
-  border-radius: 50px;
-  
+  border-radius: 20px;
+  margin-top: 20px;
 }
 
 .btn0 {
@@ -525,64 +461,18 @@ body {
 
 .card-title{
   font-size: 30px;
-  padding-left: 14<!-- outer grid second column -->
-  <div class="col-4 col-md-4" style="margin-top: 20px;">
-    SCHEDULE
-    <h1>Date: 14 Febuary 2023</h1>
-    <div class="row">
-      <!-- second column inner grid  -->
-      <div class="col-sm-6">
-        <div class="card1" style="margin-top: 20px;" >
-          <div class="card-body">
-            <h5 class="card-title">GAMIFICATION CONCEPTS</h5>
-            <p class="card-text">9AM-1PM</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card1" style="margin-top: 20px; background-color: #00AFB9;">
-          <div class="card-body">
-            <h5 class="card-title" style="padding-left: 180px;">BREAK</h5>
-            <p class="card-text">1PM-2PM</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <!-- second column inner grid  -->
-      <div class="col-sm-6">
-        <div class="card1" style="margin-top: 20px; background-color: #fed9b7;">
-          <div class="card-body">
-            <h5 class="card-title" style="padding-left: 150px;">INTERACTIVE DEVELOPMENT</h5>
-            <p class="card-text">2PM-4PM</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card1" style="margin-top: 20px; background-color: #9F80AF;">
-          <div class="card-body">
-            <h5 class="card-title" style="padding-left: 150px;">PLP BRAND STORYTELLING</h5>
-            <p class="card-text">4PM-6PM</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <!-- second column inner grid  -->
-      <div class="col-sm-12">
-        <h5 class="card-title" style="padding-left:80px; padding-top: 20px;">END OF THE DAY! YIPEEE!</h5>
-        <img class="img1" src="images/celebration.png" style="width: 95px; height: 100px;">
-      </div>0px;
+  text-align: center;
 }
 
-.card-text{
+.card-time{
   font-size: 20px;
-  padding-left: 180px;
+  text-align: center;
   color: #fff;
 }
+
 .img1{
-   margin-left: 200px;
-   margin-top: 20px;
+  margin-top: 20px;
+  margin-left: 150px;
 }
 
 .bar-container{
@@ -617,6 +507,20 @@ animation: mod-1 1s linear forwards;
   100%{
     width: 25%;
   }
+}
+
+.table tbody tr:nth-child(even) {
+  background-color:salmon !important;
+}
+
+.work {
+  text-align: left;
+}
+.exp-gain {
+  text-align: center;
+}
+.due-date {
+  text-align: right;
 }
 
 /*applied to index page embed too*/
@@ -1110,7 +1014,6 @@ iframe{
 }
 
 
-
 /*-----------------------------------*\
  * #INDEX ANNOUNCEMENT
 \*-----------------------------------*/
@@ -1196,9 +1099,6 @@ iframe{
       width: 300px;
   }
 }
-
-
-
 
 /*-----------------------------------*\
  * #FOOTER
@@ -1381,8 +1281,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
   .has-scrollbar > li { min-width: calc(50% - 12.5px); }
 
-
-
   /**
    * HERO
    */
@@ -1409,7 +1307,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
 }
 
-
 /**
  * responsive for larger than 768px screen
  */
@@ -1431,7 +1328,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
 
-
   /**
    * REUSED STYLE
    */
@@ -1439,7 +1335,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   .container { max-width: 720px; }
 
   .h4 { --fs-5: 2rem; }
-
 
 
   /**
