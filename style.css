@@ -417,6 +417,7 @@ body {
 }
 
 
+
 /*-----------------------------------*\
  * #MODULES & SCHEDULE TABS
 \*-----------------------------------*/
@@ -1044,6 +1045,15 @@ iframe{
   width: 100%;
   table-layout: fixed;
 }
+
+
+
+/* CONTACT PAGE */
+.form-control {
+  height: 60px; 
+  font-size: 18px;
+}
+
 
 
 /*-----------------------------------*\
@@ -1846,3 +1856,7 @@ th {
 tr:nth-child(even) {
 	background-color: #f2f2f2;
 } 
+
+
+}
+
