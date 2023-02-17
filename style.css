@@ -699,7 +699,7 @@ iframe{
     border-radius: 1rem;
   }
 .card-body {
-  font-family: "pinot-grigio-modern", "sans-serif";
+  font-family: "pinot-grigio-modern", sans-serif ;
   color: white;
   padding-top: 20px;
 }
@@ -713,7 +713,7 @@ iframe{
   .badge-card h2{
     color: white;
     font-weight: 20px;
-    font-family: "pinot-grigio-modern", "sans-serif";
+    font-family: "pinot-grigio-modern", sans-serif;
   }
 
   .sketchfab-embed-wrap iframe {
@@ -945,9 +945,9 @@ iframe{
 
 .image-box {
   width: 50px;
-  height: 50px;
+  height: auto;
   position: absolute;
-  top: -80px;
+  top: -90px;
   overflow: hidden;
 }
 
@@ -976,7 +976,7 @@ iframe{
 .rectangle p{
   font-size: 24px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: -60px;
   margin-bottom: 50px;  
 }
 
@@ -997,15 +997,15 @@ iframe{
   font-weight: bold;
   padding: 8px;
   text-align: left;
-  background: white;
+  background: #0881A7;
 }
 
 .board tr:nth-child(odd) {
-  background-color: #d3a297;
+  background-color: #00AFB9;
 }
 
 .board tr:nth-child(even) {
-  background-color: #f5e1dd;
+  background-color: #9F80AF;
 }
 
 .board td {
@@ -1141,6 +1141,7 @@ iframe{
  * #FOOTER
 \*-----------------------------------*/
 
+.footer { font-family: var(--ff-roboto); }
 
 .footer-top { background: var(--cultured); }
 
