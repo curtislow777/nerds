@@ -885,7 +885,6 @@ iframe{
     box-shadow: 0 0 0 1px black;
   }
   
-
   .comment-box .comment-submit{
     padding: 10px 10px;
     border: none;
@@ -896,24 +895,21 @@ iframe{
   }
   
   .comment-box .comment-submit:hover{
-    background-color: blue;
-    
+    background-color: blue; 
   }
   
 /* LEADERBOARD PAGE */
-
-#board{
+.sem{
   text-align: center;
-  margin-top: 200px;
 }
 
 .container-board{
 		display: flex;
 		justify-content: center;
 		align-items: flex-end;
-		height: 500px;
+		height: 400px;
 		width: 100%;
-    margin-top: 200px;
+    margin-top: 300px;
 	}
 
 .podium {
@@ -931,19 +927,20 @@ iframe{
   align-items: center;
   margin: 50px;
   width: 250px;
-  height: 100%;
-  background-color: #5cb85c;
+  height: 150%;
+  background-color:#00AFB9;
   position: relative;
+  border-radius: 30px;
   }
 
 .rectangle:first-child {
-  height: 70%;
-  background-color: #f0ad4e;
+  height: 100%;
+  background-color: #9F80AF;
   }
 
 .rectangle:last-child {
-  height: 40%;
-  background-color: #d9534f;
+  height: 70%;
+  background-color: #F07166;
 }
 
 .image-box {
@@ -951,7 +948,6 @@ iframe{
   height: 50px;
   position: absolute;
   top: -80px;
-
   overflow: hidden;
 }
 
@@ -981,8 +977,7 @@ iframe{
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
-  margin-bottom: 50px;
-  
+  margin-bottom: 50px;  
 }
 
 .board {
