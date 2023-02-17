@@ -1502,9 +1502,10 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
    */
 
    .contact3 {
-    font-family: "Montserrat", sans-serif;
-    color: #8d97ad;
-    font-weight: 300;
+    font-family: "pinot-grigio-modern", sans-serif;
+    color: salmon;
+    font-weight: 500;
+    padding-top: 50px;
   }
   
   .contact3 h1,
