@@ -1014,6 +1014,15 @@ iframe{
 }
 
 
+
+/* CONTACT PAGE */
+.form-control {
+  height: 60px; 
+  font-size: 18px;
+}
+
+
+
 /*-----------------------------------*\
  * #INDEX ANNOUNCEMENT
 \*-----------------------------------*/
