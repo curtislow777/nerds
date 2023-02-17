@@ -1,5 +1,5 @@
 # nerds
-Github link: https://github.com/curtislow777/nerds
+Github link: https://curtislow777.github.io/nerds/
 
 
 # NERDGE
