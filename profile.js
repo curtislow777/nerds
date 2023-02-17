@@ -4,7 +4,7 @@ function postComment() {
   
     var html = '<div class="list">' +
       '<div class="user">' +
-      '<div class="user-image"><img src="./images/Animal-Crossing-Tom-Nook-with-Money.jpg"></div>' +
+      '<div class="user-image"><img src="images/avatar-2.png"></div>' +
       '<div class="user-name">' +
       '<div class="name">Tom Nook</div>' +
       '<div class="day">1 second ago</div>' +
