@@ -1,6 +1,16 @@
 # nerds
+Github link: https://github.com/curtislow777/nerds
+
 
 # NERDGE
+
+## Curtis Contribution
+
+- Coded the profile, leaderboard, discussion and API for sign up/log in page
+
+## Dhilsha Contribution
+
+- Coded the home page, module page, reward, contact page and sign up and log in page.
 
 - Our project is about an E-Learning website that is gamified to make learning fun for students. Instead of grades for submissions, students will be able to gain EXP points.
 
