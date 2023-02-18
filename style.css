@@ -754,8 +754,8 @@ iframe{
 }
 
   .sketchfab-embed-wrap iframe {
-    width: 100%; /* set the width to 100% to make it fit the parent container */
-    height: 100%; /* set the height to 100% to fill the container vertically */
+    width: 100%;
+    height: 100%; 
 }
 
 .col-7 {
@@ -1315,10 +1315,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   padding-inline: 20px;
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #GO TOP
 \*-----------------------------------*/
@@ -1437,8 +1433,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   .container { max-width: 720px; }
 
   .h4 { --fs-5: 2rem; }
-
-
   /**
    * GO TOP
    */
@@ -1467,15 +1461,12 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
    */
 
   :root {
-
     /**
      * typography
      */
 
     --fs-3: 2.4rem;
-
   }
-
 
 
   /**
@@ -1551,7 +1542,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
  */
 
 @media (min-width: 1200px) {
-
   /**
    * CUSTOM PROPERTY
    */
@@ -1566,7 +1556,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     --fs-2: 3.6rem;
 
   }
-
 
   /**
    * REUSED STYLE
@@ -1851,9 +1840,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
 
 
-
-
-
 /* Media Queries */
 @media screen and (min-width: 992px){
     .product-items{
@@ -1916,7 +1902,6 @@ th {
 tr:nth-child(even) {
 	background-color: #f2f2f2;
 } 
-
 
 }
 

@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  //what kind of interface we want at the start 
   const APIKEY = "63de3c9d3bc6b255ed0c4647";
 
   $("#account-submit").on("click", function (e) {
