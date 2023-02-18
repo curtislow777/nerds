@@ -417,7 +417,7 @@ body {
 /*-----------------------------------*\
  * #MODULES & SCHEDULE TABS
 \*-----------------------------------*/
-.container2{
+.container-2{
   padding: 5%;
 }
 
@@ -427,9 +427,13 @@ body {
 
 }
 
-.card2{
-  max-width: 300px;
+.card0{
+  -webkit-mask-image:url('images/GC.png');
+  mask-image:url('images/GC.png');
+  
 }
+
+
 .col-4{
   font-size: 30px; 
 }
@@ -1505,6 +1509,7 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
   .navbar-link {
+    font-family: var(--ff-roboto);
     font-weight: var(--fw-500);
   }
 
