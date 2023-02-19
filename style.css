@@ -719,6 +719,8 @@ iframe{
   display: flex;
 }
 
+
+
 .profile-image {
   height: 170px;
   width: 170px;
@@ -798,7 +800,6 @@ iframe{
 .progress-bar > div {
   height: 100%;
   border-radius: 10px;
-  background-color: #007bff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -810,21 +811,25 @@ iframe{
 
 .mod-1 {
   background-color: #F07167;
+  width: 0;
   animation: mod-1 1s linear forwards;
 }
 
 .mod-2 {
   background-color: #0081A7;
+  width: 0;
   animation: mod-2 1s linear forwards;
 }
 
 .mod-3 {
   background-color: #F5A624;
+  width: 0;
   animation: mod-3 1s linear forwards;
 }
 
 .mod-4 {
   background-color: #2FCCAD;
+  width: 0;
   animation: mod-4 1s linear forwards;
 }
 
@@ -950,15 +955,11 @@ iframe{
 
 .comment-box button {
   border: none;
-  background-color: greenyellow;
+  background-color: #F07166;
   color: white;
   padding: 10px 20px;
   border-radius: 3px;
   cursor: pointer;
-}
-
-.comment-box button:hover {
-  background-color: blue;
 }
   
 /* LEADERBOARD PAGE */
