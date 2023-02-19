@@ -7,7 +7,7 @@ function postComment() {
       '<div class="user-image"><img src="images/avatar-2.png"></div>' +
       '<div class="user-name">' +
       '<div class="name">Tom Nook</div>' +
-      '<div class="day">1 second ago</div>' +
+      '<div class="date">1 second ago</div>' +
       '</div>' +
       '</div>' +
       '<div id="new-comment">' + userComment + '</div>' +
