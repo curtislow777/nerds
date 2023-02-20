@@ -714,10 +714,10 @@ iframe{
     border-radius: 1rem;
 }
 
-.card-body {
-  font-family: "pinot-grigio-modern", sans-serif ;
+.card-body a{
   color: white;
   padding-top: 20px;
+  text-align: center;
 }
 
 .card-profile, .badge-card {
