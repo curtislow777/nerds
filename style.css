@@ -1611,7 +1611,9 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
  /**
    * CONTACT
    */
-
+.what{
+  color: white;
+}
    .contact3 {
     font-family: "pinot-grigio-modern", sans-serif;
     color: salmon;
