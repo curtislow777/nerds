@@ -41,8 +41,13 @@ $(document).ready(function () {
     $.ajax(settings)
     .done(function(response) {
       console.log(response);
+      var error = document.getElementById("error");
+
       $("#account-submit").prop("disabled", false);
-      $("#success-message").text("Account Created!");
+      $("#success-message").text("Account Created! Please login now");
+      $("#error-message").css("display","none");
+
+
 
     })
     .fail(function(response) {
