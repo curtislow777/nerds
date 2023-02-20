@@ -277,6 +277,7 @@ body {
   background: var(--white);
   position: fixed;
   top: 0;
+  left: -280px;
   width: 100%;
   max-width: 270px;
   height: 100%;
@@ -1390,6 +1391,21 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
 
   .hero-text { font-size: var(--fs-7); }
 
+
+   /**
+   * CTA
+   */
+
+   .cta-card { text-align: left; }
+
+   .cta-card .card-title { max-width: 14ch; }
+ 
+   .cta-card .btn-link { margin-inline: 0; }
+
+
+
+
+
   /**
    * FOOTER
    */
@@ -1517,7 +1533,6 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
   .navbar-link {
-    font-family: var(--ff-roboto);
     font-weight: var(--fw-500);
   }
 
